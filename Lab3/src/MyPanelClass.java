@@ -25,17 +25,26 @@ public class MyPanelClass extends JPanel {
  
                         //Paint the background
                         g.setColor(Color.RED);
-                        g.fillRect(x1, y1, width + 1, height + 1);
-//                        //Draw a border
-//                        g.setColor(Color.YELLOW);
-//                        g.drawRect(x1, y1, width, height);
-//                        //Draw a second border
+                        g.fillRect(x1, y1, width +1, height +1);
+                        
+                        g.setColor(Color.WHITE);
+                        g.fillRect(x1, height / 5, width + 1, height / 5);
+                        
+                        
+//                       
+                        //Draw a border
+                        g.setColor(Color.BLACK);
+                        g.drawRect(x1, y1, width, height);
+//                       
+                        //Draw a second border
 //                        g.setColor(Color.BLUE);
 //                        g.drawRect(x1 + 3, y1 + 3, width - 5, height - 5);
-//                        //Draw a diagonal line
+//                        
+                        //Draw a diagonal line
 //                        g.setColor(Color.WHITE);
 //                        g.drawLine(x1, y1, x2, y2);
-//                        //Draw a second diagonal line
+//                       
+                        //Draw a second diagonal line
 //                        g.setColor(Color.BLACK);
 //                        g.drawLine(x1, y2, x2, y1);
                         
@@ -53,22 +62,29 @@ public class MyPanelClass extends JPanel {
 //                        g.setColor(Color.YELLOW);
 //                        g.fillPolygon(p);
                         
-                        Polygon p2 = new Polygon();
-                        p2.addPoint(x1 + 25, y1 + 73);
-                        p2.addPoint(x1 + 41, y1 + 73);
-                        p2.addPoint(x1 + 47, y1 + 58);
-                        p2.addPoint(x1 + 53, y1 + 73);
-                        p2.addPoint(x1 + 69, y1 + 73);
-                        p2.addPoint(x1 + 56, y1 + 83);
-                        p2.addPoint(x1 + 61, y1 + 98);
-                        p2.addPoint(x1 + 47, y1 + 88);
-                        p2.addPoint(x1 + 34, y1 + 98);
-                        p2.addPoint(x1 + 38, y1 + 83);
-                        g.setColor(Color.WHITE);
-                        g.drawPolygon(p2);
-                        
-                        
+//                        Polygon p2 = new Polygon();
+//                        p2.addPoint(x1 + 45, y1 + 93);
+//                        p2.addPoint(x1 + 61, y1 + 93);
+//                        p2.addPoint(x1 + 67, y1 + 78);
+//                        p2.addPoint(x1 + 73, y1 + 93);
+//                        p2.addPoint(x1 + 89, y1 + 93);
+//                        p2.addPoint(x1 + 76, y1 + 103);
+//                        p2.addPoint(x1 + 81, y1 + 118);
+//                        p2.addPoint(x1 + 67, y1 + 108);
+//                        p2.addPoint(x1 + 54, y1 + 118);
+//                        p2.addPoint(x1 + 58, y1 + 103);
+//                        g.setColor(Color.GREEN);
+//                        g.fillPolygon(p2);
 //                        
+//                         Polygon p3 = new Polygon ();
+//                         p3.addPoint(x1 + 34, y1 + 98);
+//                         p3.addPoint(x1 + 25, y1 + 73);
+//                         p3.addPoint(x1 + 61, y1 + 98);
+//                         g.setColor(Color.BLUE);
+//                         g.fillPolygon(p3);
+//                       
+                        
+                        
                         
             }
 }
